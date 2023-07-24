@@ -1,0 +1,18 @@
+body, html {
+    background-color: blueviolet;
+    margin: 0;
+    overflow: hidden;
+}
+.titulo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+}
+.sub-titulo {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+#gameCanvas {
+    border: 1px solid #000;
+}
