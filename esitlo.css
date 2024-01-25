@@ -1,7 +1,13 @@
 body, html {
-    background-color: blueviolet;
+    background-color: #0f1518;
     margin: 0;
     overflow: hidden;
+}
+.conten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .titulo {
     text-align: center;
@@ -14,5 +20,10 @@ body, html {
     color: brown;
 }
 #gameCanvas {
-    border: 1px solid #000;
+    border: 3px solid #000;
+    background: url(itm/cesped-en-el-cesped-768x573.webp);
+    background-size:contain;
+    /* margin-left: 200px; */
+    border-radius: 20px;
+
 }
